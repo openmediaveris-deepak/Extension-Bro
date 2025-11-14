@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Is True?",
+  "version": "1.0.0",
+  "description": "AI-powered fact-checking for selected text",
+  "action": { 
+    "default_popup": "index.html",
+    "default_title": "Open Extension"
+  },
+  "icons": { 
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": { 
+    "service_worker": "src/service-worker.js" 
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content-script.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    { 
+      "resources": ["assets/*", "icons/*"], 
+      "matches": ["<all_urls>"] 
+    }
+  ]
+}
