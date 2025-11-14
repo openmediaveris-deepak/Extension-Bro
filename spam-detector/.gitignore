@@ -10,6 +10,9 @@ build/
 .env.local
 .env.*.local
 
+# API Keys (DO NOT COMMIT)
+src/config/api.ts
+
 # IDE
 .vscode/
 .idea/
