@@ -1,0 +1,7 @@
+{
+  "name": "Regenerate Icons",
+  "description": "Regenerate extension icons in all required sizes",
+  "trigger": "manual",
+  "icon": "🎨",
+  "prompt": "Regenerate the extension icons for spam-detector. Create PNG icons in sizes 16x16, 48x48, and 128x128 in the public/icons folder. Use the shield design with emerald and gold colors. After generation, rebuild the extension."
+}
