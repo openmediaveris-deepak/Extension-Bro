@@ -6,7 +6,7 @@ A premium Chrome extension boilerplate with luxury UI, TypeScript, React, and mo
 
 ---
 
-## 🎯 Main Product: Skeleton Crew Template
+## 🎯 Skeleton Crew Template
 
 **The ultimate Chrome extension boilerplate for professional developers.**
 
