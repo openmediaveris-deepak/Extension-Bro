@@ -1,0 +1,7 @@
+{
+  "name": "Check Code Quality",
+  "description": "Analyze code for issues and improvements",
+  "trigger": "manual",
+  "icon": "✨",
+  "prompt": "Analyze the spam-detector codebase for code quality issues. Check for: unused imports, duplicate code, overly complex functions, missing error handling, and potential performance issues. Provide a summary report with specific file locations and suggestions for improvement."
+}
